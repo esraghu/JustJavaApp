@@ -36,16 +36,6 @@ public class MainActivity extends ActionBarActivity {
 //        displayOrderMessage(priceMessage);
 //        displayToast("Your order is ready!");
         composeEmail(priceMessage);
-
-//        Intent intent = new Intent(Intent.ACTION_VIEW);
-//        intent.setData(Uri.parse("geo:47.6,-122.3"));
-//        if (intent.resolveActivity(getPackageManager()) != null) {
-//            startActivity(intent);
-//        } else {
-////            Log.d("MainActivity", "No Apps available to handle the intent");
-//            displayToast("No Apps available to handle the intent");
-//        }
-
         }
 
     /**
